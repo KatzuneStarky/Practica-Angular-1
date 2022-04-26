@@ -2,14 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-hader',
-  templateUrl: './hader.component.html',
-  styleUrls: ['./hader.component.scss']
+  template: `
+    <mat-toolbar color="primary">
+      <span>Store Angular</span>
+    </mat-toolbar>
+  `,
+  styleUrls: ['./hader.component.scss'],
 })
-export class HaderComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class HaderComponent {}
