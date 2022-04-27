@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { tap } from 'rxjs';
-import { ShoppingCartService } from 'src/app/shared/components/services/shoppin-cart.service';
+import { ShoppingCartService } from 'src/app/shared/services/shoppin-cart.service';
 import { Product } from './interfaces/product.interface';
 import { ProductsService } from './services/products.service';
 
